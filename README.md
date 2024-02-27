@@ -1,4 +1,4 @@
-### 프로젝트 명 : 뉴스 빅데이터를 통한 이슈 키워드 분석
+프로젝트 명 : 뉴스 빅데이터를 통한 이슈 키워드 분석
 ---
 
 - **프로젝트 소개**
@@ -33,6 +33,23 @@
     
     <img src="https://github.com/JEMinn/Web-crawling-Wordcloud/assets/160000163/8293a087-a528-4954-b481-50b614f6dd86"  width="600" height="250"/>
 
+---
+
+- **내용 소개**
+
+  - **데이터 수집 및 전처리**
+    - 사건/사고, 경제, 서울, 수도권, 복지 5가지 카테고리 BeautifulSoup 기반 Web Crawling
+    - 명사 추출 / 1음절 단어 제외 / 불용어 사전 제작 / 불용어 제외
+
+  - **데이터 분석**
+    - Word Count / Word Cloud
+      
+      <img src="https://github.com/JEMinn/Web-crawling-Wordcloud/assets/160000163/d3cd4e7d-6966-4366-8053-93d8e7ee13f6"  width="200" height="120"/>
+
+  - **분석 결과**
+    - 전체 뉴스 Hot Topic
+    - 계절별 Hot Issue
+    - Category Hot Keyword
 
 
 
