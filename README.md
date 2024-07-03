@@ -1,7 +1,7 @@
-프로젝트 명 : 뉴스 빅데이터를 통한 이슈 키워드 분석
+📌 프로젝트 명 : 뉴스 빅데이터를 통한 이슈 키워드 분석
 ---
 
-- **프로젝트 소개**
+✨ **프로젝트 소개**
 
   ✨ **목적**
     - 이 프로젝트는 뉴스 웹크롤링을 통해 수집된 데이터를 분석하여 주요 키워드를 시각화하고, 사회적 이슈를 파악하는 것을 목표로 합니다.
@@ -26,17 +26,17 @@
     - BeautifulSoup
     - Matplotlib
 
-  - **수행 일정**
+  📅 **수행 일정**
     
     　 <img src="https://github.com/JEMinn/Web-crawling-Wordcloud/assets/160000163/e087e7ab-c364-4f81-90f1-37b95bdf4671"  width="600" height="250"/>
 
-  - **업무 흐름 및 설명**
+  🛠️ **업무 흐름 및 설명**
     
     <img src="https://github.com/JEMinn/Web-crawling-Wordcloud/assets/160000163/8293a087-a528-4954-b481-50b614f6dd86"  width="600" height="250"/>
 
 ---
 
-- **내용 소개**
+📖 **내용 소개**
 
   📊 **데이터 수집 및 전처리**
     - 데이터 수집: BeautifulSoup을 사용한 웹크롤링
