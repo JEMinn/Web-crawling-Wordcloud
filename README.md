@@ -12,16 +12,18 @@
     - 방대한 뉴스 정보 속 핵심 키워드 도출
     - 기업의 효율적인 시장조사 수행 지원
 
-  - **수집기간**
+  - **수집 기간**
     - 2022년 09월 01일 ~ 2023년 08월 31일 (1년) 
 
   - **수집 대상**
     - 다음 주요 뉴스(1Day : 40page), 사건/사고, 경제, 복지, 서울, 수도권(ALL Page)
 
-  - **분석방법**
-    - 단어 빈도 분석, 시각화(graph, wordcloud)
+  - **분석 방법 및 도구**
+    - BeautifulSoup 기반 웹크롤링
+    - Python, Matplotlib 사용
+    - 명사 추출, 불용어 처리
 
-  - **수행일정**
+  - **수행 일정**
     
     　 <img src="https://github.com/JEMinn/Web-crawling-Wordcloud/assets/160000163/e087e7ab-c364-4f81-90f1-37b95bdf4671"  width="600" height="250"/>
 
@@ -34,11 +36,12 @@
 - **내용 소개**
 
   - **데이터 수집 및 전처리**
-    - 사건/사고, 경제, 서울, 수도권, 복지 5가지 카테고리 BeautifulSoup 기반 Web Crawling
-    - 명사 추출 / 1음절 단어 제외 / 불용어 사전 제작 / 불용어 제외
+    - 웹크롤링을 통해 뉴스 데이터 수집
+    - 데이터 정제 및 명사 추출
+    - 불용어 처리로 데이터 정제
 
   - **데이터 분석**
-    - Word Count / Word Cloud
+    - Word Count, Word Cloud 생성
       
       <img src="https://github.com/JEMinn/Web-crawling-Wordcloud/assets/160000163/d3cd4e7d-6966-4366-8053-93d8e7ee13f6"  width="200" height="120"/>
 
